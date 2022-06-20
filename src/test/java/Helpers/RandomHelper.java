@@ -14,7 +14,7 @@ public class RandomHelper {
 		return sb.toString();
 	}
 
-	public static int randomNumeric(int size) {
+	public static int randomNumeric(){
 		Random randI = new Random();
 		return randI.ints(1, 1000).findAny().getAsInt();
 	}
