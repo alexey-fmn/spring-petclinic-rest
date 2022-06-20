@@ -3,6 +3,7 @@ package Helpers;
 import java.util.Random;
 
 public class RandomHelper {
+
 	public static String randomAlphabetString(int size) {
 		String AlphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvxyz";
 		StringBuilder sb = new StringBuilder(size);
@@ -17,4 +18,5 @@ public class RandomHelper {
 		Random randI = new Random();
 		return randI.ints(1, 1000).findAny().getAsInt();
 	}
+
 }
